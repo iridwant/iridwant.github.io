@@ -1,0 +1,128 @@
+#body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(201, 194, 248);
+}
+
+body h1 {
+    font-family: 'Bungee', cursive;
+}
+
+.button {
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 30px 50px;
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: aqua;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+
+.pyro {
+    background-color: red;
+    background-image: url(img/pyro.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cryo {
+    background-color: lightblue;
+    background-image: url(img/cryo.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.anemo {
+    background-color: teal;
+    background-image: url(img/anemo.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hydro {
+    background-color: blue;
+    background-image: url(img/hydro.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.geo {
+    background-color: burlywood;
+    background-image: url(img/geo.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.electro {
+    background-color: purple;
+    background-image: url(img/electro.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dendro {
+    background-color: green;
+    background-image: url(img/dendro.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gameTitle {
+    margin-top: 110px;
+}
+
+#score {
+    margin-top: 150px;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+}
+
+.game-over {
+    background-color: red;
+}
+
+.text-over {
+    color: red;
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.section {
+    border: 2px solid black; 
+    width: 45%; 
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.section ol {
+    padding: 15px 55px;
+}
+
+.section li {
+    padding: 10px 5px;
+    text-align: justify;
+}
